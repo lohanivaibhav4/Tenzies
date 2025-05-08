@@ -72,3 +72,18 @@ p{
     right: 5%;
     font-size: larger;
 }
+@media(max-width : 560px){
+    .app-div{
+        width: 360px;
+        height: 95dvh;
+    }
+    .dice-container{
+        width: 90%;
+    }
+    .score-card{
+        max-width: 90%;
+    }
+    span{
+        font-size: 1.25em;
+    }
+}
