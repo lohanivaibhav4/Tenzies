@@ -1,0 +1,74 @@
+.app-div{
+    width: 75dvb;
+    height: 75dvh;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+    position: relative;
+}
+.dice-container{
+    height: 20dvh;
+    width: 50dvb;
+    display: grid;
+    grid-template: auto auto / repeat(5,1fr);
+    gap: 1em;   
+}
+h1{
+    margin: 0;
+    font-size: 3em;
+    border-bottom: 3px solid #1DCA8E ;
+}
+
+.dice, .roll-btn, .reset, .restart, span{
+    border: none;
+    background-color: white;
+    color: #0B2434;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 2rem;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.dice:hover{
+    outline: 5px solid #1DCA8E;
+}
+.roll-btn{
+    padding: 0.25em 1em;
+}
+.roll-btn:hover{
+    background-color: #1DCA8E;
+    color: #F5F5F5;
+    text-shadow: 1px 2px 2px #0B2434;
+}
+.score-card{
+    height: 10dvh;
+    width: 60dvb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span{
+    padding: 0.25em 0.5em;
+    border-bottom: 3px solid #1DCA8E;
+}
+p{
+    font-family: inherit;
+    border-left: 5px solid #1DCA8E;
+    padding: 1em;
+    font-size: large;
+    margin: 0;
+}
+.reset{
+    font-size: small;
+}
+.restart{
+    position: absolute;
+    top: 6%;
+    right: 5%;
+    font-size: larger;
+}
