@@ -58,11 +58,10 @@ function App() {
       <div className='app-div'>
         <h1>Tenzies</h1>
         <button className="restart" onClick={restart}><i class="fa-solid fa-rotate-left"></i></button>
-        {rolls === 0 ? <p>Match all dices to the same number in minimum rolls.</p> : null}
+        {rolls === 0 ? <p>Roll the dice, hold matching numbers, and keep rolling until all dice show the same number.</p> : null}
         <div className='dice-container'>
           {diceElements}
         </div>
-
         <button onClick={rollDice} className='roll-btn'>{gameWon?'New Game':'Roll'}</button>
         <Score currScore={rolls} maxScore={!maxScore ? 0 : maxScore}/>
       </div>

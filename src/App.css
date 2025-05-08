@@ -76,14 +76,29 @@ p{
     .app-div{
         width: 360px;
         height: 95dvh;
+        justify-content: space-between;
     }
     .dice-container{
         width: 90%;
     }
     .score-card{
         max-width: 90%;
+        flex-direction: column;
+        gap: 1em;
+        height: fit-content;
+        margin-bottom: 2em;
     }
     span{
-        font-size: 1.25em;
+        font-size: 1.5em;
+        padding: 0.5em 1em;
+    }
+    .reset{
+        position: absolute;
+        bottom: 2%;
+        left: auto;
+        padding: 0.25em 0.5em;
+    }
+    h1{
+        
     }
 }
